@@ -12,6 +12,9 @@ public interface CocktailsDao {
         CocktailsBook getCocktailByName(String cocktail);
         List<CocktailsBook> getWishCocktails(int userId);
         List<CocktailsBook> getFavCocktails(int userId);
+        List<CocktailsBook> getCocktailsByAlcohol(String alcohol);
+        boolean deleteCocktail();
+        List<CocktailsBook> getAllCocktailsTried(int userId);
 
 
 }

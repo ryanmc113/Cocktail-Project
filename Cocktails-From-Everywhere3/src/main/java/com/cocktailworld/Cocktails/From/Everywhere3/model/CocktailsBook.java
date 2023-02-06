@@ -10,6 +10,15 @@ public class CocktailsBook {
     private String cocktailDescription;
     private String cocktailNotes;
     private String cocktailInstructions;
+    private String cocktailIngredients;
+
+    public String getCocktailIngredients() {
+        return cocktailIngredients;
+    }
+
+    public void setCocktailIngredients(String cocktailIngredients) {
+        this.cocktailIngredients = cocktailIngredients;
+    }
 
     public String getFavCocktail() {
         return favCocktail;
